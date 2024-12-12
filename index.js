@@ -16,7 +16,7 @@ app.use(express.static('public'));
 // Configuración de la conexión a MySQL
 const connection = mysql.createConnection({
     host: 'luis.chrxbliev7eq.us-east-1.rds.amazonaws.com',
-    user: 'luis',  // Cambia esto si usas otro usuario
+    user: 'admin',  // Cambia esto si usas otro usuario
     password: 'luis12345...',  // Coloca la contraseña correcta aquí
     database: 'Record'
 });

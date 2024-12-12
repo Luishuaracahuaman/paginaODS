@@ -15,9 +15,9 @@ app.use(express.static('public'));
 
 // Configuración de la conexión a MySQL
 const connection = mysql.createConnection({
-    host: 'proyecto.c4rw4cdg8ftc.us-east-1.rds.amazonaws.com',
-    user: 'jenni',  // Cambia esto si usas otro usuario
-    password: 'cubillas31',  // Coloca la contraseña correcta aquí
+    host: 'luis.chrxbliev7eq.us-east-1.rds.amazonaws.com',
+    user: 'luis',  // Cambia esto si usas otro usuario
+    password: 'luis12345...',  // Coloca la contraseña correcta aquí
     database: 'Record'
 });
 
@@ -99,5 +99,5 @@ app.get("/producto", (req, res) => {
 
 // Iniciar el servidor
 app.listen(port, () => {
-    console.log(`Servidor escuchando en http://localhost:${port}`);
+    console.log(`Servidor escuchando en http://3.89.38.91:${port}`);
 });

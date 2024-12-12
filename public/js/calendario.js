@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        fetch(`http://54.158.155.225:3000/api/dates/${fecha}`)
+        fetch(`http://34.229.226.66:3000/api/dates/${fecha}`)
             .then((response) => {
                 if (!response.ok) {
                     throw new Error("Error en la solicitud: " + response.status);

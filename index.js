@@ -99,5 +99,5 @@ app.get("/producto", (req, res) => {
 
 // Iniciar el servidor
 app.listen(port, () => {
-    console.log(`Servidor escuchando en http://54.158.155.225:${port}`);
+    console.log(`Servidor escuchando en http://34.229.226.66:${port}`);
 });
